@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie</title>
+</head>
+<body>
+<p th:text="${movie.getName()}"></p>
+<p th:text="${movie.getDescription()}"></p>
+<p th:text="${movie.getAgeRating()}"></p>
+<p th:text="${movie.getMovieRating}"></p>
+<img src="${movie.getImage}}">
+<label for="chooseTime"> Время:</label>
+<br>
+<input type="time" id="chooseTime" name="choosTime">
+</body>
+</html>
